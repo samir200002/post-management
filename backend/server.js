@@ -16,7 +16,7 @@ const app = express()
 
 // CORS configuration
 const corsOptions = {
-  origin: "http://localhost:5173", // Vite's default port
+  origin: "https://post-management-7058.onrender.com", // Vite's default port
   methods: ["GET", "POST", "PATCH", "DELETE", "PUT", "OPTIONS"],
   allowedHeaders: ["Content-Type", "Authorization"],
   credentials: true,
