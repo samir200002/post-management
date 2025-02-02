@@ -43,8 +43,8 @@ const Home = () => {
           key={post._id}
           className="group bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-1 hover:scale-[1.02]"
         >
-          <div className="relative h-64 overflow-hidden">
-            <img
+<div className="relative sm:h-48 md:h-56 lg:h-64 overflow-hidden">
+<img
               src={post.image ? `${API_URL}${post.image}` : "/placeholder.svg"}
               alt={post.title}
               className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
