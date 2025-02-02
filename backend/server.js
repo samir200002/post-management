@@ -16,7 +16,7 @@ const app = express()
 
 // CORS configuration
 const corsOptions = {
-  origin: "https://post-management-eight.vercel.app/", // Vite's default port
+  origin: "https://post-management-eight.vercel.app", // Removed trailing slash
   methods: ["GET", "POST", "PATCH", "DELETE", "PUT", "OPTIONS"],
   allowedHeaders: ["Content-Type", "Authorization"],
   credentials: true,
